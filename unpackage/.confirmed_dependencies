@@ -1,0 +1,122 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/header.css",
+			"fonts/mui.ttf",
+			"font_1/iconfont.css",
+			"henu-chatlists.html"
+		],
+		"refer": [
+			"henu-chatlists.html",
+			"henu-contact.html",
+			"henu-discover.html",
+			"henu-me.html"
+		]
+	},
+	"henu-chatlists.html": {
+		"resources": [
+			"css/mui.min.css"
+		]
+	},
+	"henu-me.html": {
+		"resources": [
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"image/qrcode.png",
+			"image/face-default-cat.png",
+			"js/app.js"
+		],
+		"refer": [
+			"login.html",
+			"mynickname.html",
+			"myface.html",
+			"myQRCode.html"
+		]
+	},
+	"henu-discover.html": {
+		"resources": [
+			"css/mui.min.css"
+		]
+	},
+	"login.html": {
+		"resources": [
+			"js/app.js",
+			"js/mui.min.js",
+			"css/registLogin/util.css",
+			"css/registLogin/main.css",
+			"css/registLogin/arrow.jpg",
+			"register.html",
+			"login.html"
+		],
+		"refer": [
+			"register.html",
+			"index.html",
+			"login.html"
+		]
+	},
+	"register.html": {
+		"resources": [
+			"css/registLogin/util.css",
+			"css/registLogin/main.css",
+			"login.html",
+			"js/app.js",
+			"js/mui.min.js",
+			"css/registLogin/arrow.jpg"
+		],
+		"refer": [
+			"login.html"
+		]
+	},
+	"henu-contact.html": {
+		"resources": [
+			"css/mui.min.css"
+		]
+	},
+	"mynickname.html": {
+		"resources": [
+			"js/app.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/header.css"
+		]
+	},
+	"myface.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/header.css",
+			"js/app.js",
+			"js/mui.min.js",
+			"image/face-default-cat.png"
+		],
+		"refer": [
+			"plugin/v3.1.6/myface-uploader.html"
+		]
+	},
+	"myQRCode.html": {
+		"resources": [
+			"js/app.js",
+			"fonts/mui.ttf",
+			"js/mui.js",
+			"css/mui.css",
+			"image/download.png",
+			"css/header.css"
+		]
+	},
+	"plugin/v3.1.6/myface-uploader.html": {
+		"resources": [
+			"js/app.js",
+			"image/upload.png",
+			"plugin/v3.1.6/css/cropper.css",
+			"js/mui.min.js",
+			"plugin/v3.1.6/css/main.css",
+			"css/mui.min.css",
+			"plugin/v3.1.6/js/cropper.js",
+			"css/header.css",
+			"fonts/mui.ttf"
+		]
+	}
+}
